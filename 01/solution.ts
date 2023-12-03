@@ -2,7 +2,7 @@
 
 const text = await Deno.readTextFile("./input.txt");
 
-const input = text.split("\n");
+const input = text.split("\r\n");
 
 // Part 1
 
